@@ -1,0 +1,266 @@
+@font-face {
+  font-family: 'jont';
+  src: url('../resources/Jost-400-Book.ttf');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'jont', sans-serif;
+  font-size: 10px;
+}
+
+
+:root {
+  --h2-font: 3rem;
+}
+
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
+  border-bottom: 1px solid black;
+}
+
+nav img:nth-of-type(2) {
+  width: 200px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+
+nav>ul {
+  display: flex;
+  list-style: none;
+}
+
+nav>ul li {
+  padding: 0 20px;
+}
+
+nav>ul li:hover a {
+  border-bottom: 2px solid black;
+}
+
+nav .phone{
+  width: 35px;
+}
+
+nav .phone img {
+  width: 100%;
+  animation: vibrate 1.5s infinite;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(-2px);
+  }
+
+  40% {
+    transform: translateY(2px);
+  }
+
+  60% {
+    transform: translateY(-2px);
+  }
+
+  80% {
+    transform: translateY(2px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.dropdown {
+  position: relative;
+}
+
+
+.dropdown:hover a {
+  border-bottom: 0;
+}
+
+.dropdown-menu {
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  background-color: rgb(244, 241, 241);
+  width: 200px;
+  top: 30px;
+  left: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(5px);
+  z-index: 10;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu li {
+  width: 100%;
+  padding: 0;
+}
+
+.dropdown-menu li a {
+  width: 100%;
+  display: block;
+  transition: .3s ease-in;
+  padding: 8px 3px 8px 8px;
+}
+
+.dropdown-menu li:hover a {
+  background-color: rgb(227, 226, 226);
+}
+
+.arrow {
+  display: inline-block;
+  transform: rotate(90deg);
+  font-size: 1.8rem;
+}
+
+.hamburger {
+  width: 40px;
+  display: none;
+}
+
+.dropdown-menu button {
+  display: none;
+}
+
+
+@media screen and (max-width:1000px) {
+  .nav-list {
+    position: absolute;
+    top: 133px;
+    left: 0;
+    background-color: rgb(244, 243, 241);
+    width: 100%;
+    padding-left: 5%;
+    visibility: hidden;
+  }
+
+  .nav-list.see {
+    visibility: visible;
+  }
+
+  nav>ul {
+    flex-direction: column;
+  }
+
+  nav>ul li {
+    padding: 15px 0px;
+  }
+
+  .dropdown-menu li a {
+    padding: 10px 3px 10px 8px;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0);
+  }
+
+  .dropdown-menu.slide-menu {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 400px;
+    height: 355px;
+    overflow-y: scroll;
+    /* transform: translateX(100%); */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+
+  .dropdown-menu.slide-menu.show {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .dropdown-menu button {
+    outline: 0;
+    font-size: 3rem;
+    border: 0;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .arrow {
+    transform: rotate(360deg);
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:700px) {
+  nav img:nth-of-type(2) {
+    width: 160px;
+  }
+
+  nav img:nth-of-type(3) {
+    width: 30px;
+  }
+
+  .hamburger {
+    width: 35px;
+  }
+
+  .dropdown-menu.slide-menu {
+    top: -60px;
+  }
+
+  .nav-list {
+    top: 110px;
+  }
+}
+
+@media screen and (max-width:500px){
+  .dropdown-menu.slide-menu{
+    width: 100%;
+  }
+}
+@media screen and (max-width:360px) {
+  nav img:nth-of-type(2) {
+    width: 130px;
+  }
+
+  nav .phone img {
+    width: 28px;
+  }
+
+  .hamburger {
+    width: 32px;
+  }
+}

@@ -1,0 +1,109 @@
+.size-guide-width {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sg-top {
+  text-align: center;
+  margin: 50px 0 60px;
+}
+
+.sg-top h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.sg-top a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: black;
+}
+
+.sg-top span {
+  font-size: 1.6rem;
+  color: black;
+}
+
+.sg-top .gt {
+  font-size: 1.6rem;
+  margin: 0 12px;
+}
+
+.chart-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 60px;
+}
+
+.men-size,
+.women-size {
+  width: 45%;
+}
+
+.men-size h2,
+.women-size h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.men-size h3,
+.women-size h3 {
+  font-size: 2.1rem;
+}
+
+.men-size p,
+.women-size p {
+  font-size: 1.8rem;
+}
+
+.men-box,
+.women-box {
+  width: 100%;
+}
+
+.men-box>div,
+.women-box>div {
+  display: flex;
+  margin-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+.men-box>div p,
+.women-box>div p {
+  width: calc(100% / 5);
+}
+
+
+
+@media screen and (max-width:970px) {
+
+  .men-size,
+  .women-size {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:800px) {
+
+  .men-size,
+  .women-size {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:650px) {
+
+  .men-size,
+  .women-size {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+  .men-size,
+  .women-size {
+    width: 100%;
+  }
+}

@@ -110,7 +110,7 @@ import Pd2Pair3_1 from './ProductDetails2Pair3/Pd2Pair1';
 import Pd2Pair3_2 from './ProductDetails2Pair3/Pd2Pair2';
 import Pd2Pair3_3 from './ProductDetails2Pair3/Pd2Pair3';
 import Pd2Pair4_1 from './ProductDetails2Pair4/Pd2Pair1';
-import Pd2Pair4_2 from './ProductDetails2Pair4/Pd2Pair2';
+import Pd2Pair4_2 from './ProductDetails2Pair4/Pd2pair2';
 import Pd2Pair4_3 from './ProductDetails2Pair4/Pd2Pair3';
 import PdJacket1 from './ProductDetailsJacket/PdJacket1'
 import PdJacket2 from './ProductDetailsJacket/PdJacket2'

@@ -6,7 +6,7 @@ import { payWithPaystack } from '../payWithPayStack'; // adjust path if needed
 
 const images = [
     "/images/img1.png",
-    "/images/img2.jpg",
+    "/images/img7.jpg",
     "/images/img3.jpg",
     "/images/img4.jpg",
     "/images/img7.jpg"

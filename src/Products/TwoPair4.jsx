@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import "../Styles/Skirt.css"
 import Footer from '../components/Footer';
-import TwoPairData4 from '../TwoPairData/TwoPairData4'
+import TwoPairData4 from '../TwoPairData/TwopairData4'
 
 
 const TwoPair4 = () => {

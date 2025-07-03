@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../Styles/Footer.css'
+import whatsappimg from '../images/whatsapp.png'
 
 const Footer = () => {
   return (
     <>
       <footer>
         <div className='footer-width'>
+          <a href="https://wa.me/2348070967310"><img src={whatsappimg} alt="" className='whatsapp' /></a>
           <div>
             <h3>Let's get in touch</h3>
             <p>

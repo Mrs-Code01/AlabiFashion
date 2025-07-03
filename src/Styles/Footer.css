@@ -90,6 +90,17 @@ footer {
   font-size: 1.5rem;
 }
 
+.whatsapp{
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 60px;
+background-color: #fff;
+border: 2px solid #fff;
+z-index: 999;
+border-radius:50%;
+}
+
 
 
 

@@ -101,12 +101,12 @@ const Home = () => {
       <section className='size-check'>
         <img src={img5} alt="" />
         <div>
-          <h2>Check Out Our Size Size</h2>
+          <h2>Check Out Our Size Guide</h2>
           <p>
             Our size guide is here to help you find the perfect fit. Whether you like it snug or loose.<br />
             Check out our full size chart for exact measurements in inches.
           </p>
-          <Link to='/sizeguide'>Shop now</Link>
+          <Link to='/sizeguide'>Check Now</Link>
         </div>
       </section>
 

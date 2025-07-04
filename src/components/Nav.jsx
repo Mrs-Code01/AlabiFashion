@@ -37,7 +37,7 @@ const Nav = () => {
           </li>
           <li><Link to="/faqs">FAQs</Link></li>
           <li><Link to="/sizeguide">Size Guide</Link></li>
-          <li><Link to="/about">About</Link></li>
+          <li><Link to="/aboutus">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
         <a href="tel:+2348070967310" className='phone'><img src={phone} alt="" /></a>

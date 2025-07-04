@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import Contact from './Pages/Contact';
 import SizeGuide from './Pages/SizeGuide';
 import Faq from './Pages/Faq';
+import AboutUs from './Pages/AboutUs'
 import Agbada1 from './Products/Agbada1';
 import Agbada2 from './Products/Agbada2';
 import Agbada3 from './Products/Agbada3';
@@ -174,6 +175,7 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
           <Route path='/sizeguide' element={<SizeGuide />} />
           <Route path='/faqs' element={<Faq />} />
+          <Route path='/aboutus' element={<AboutUs />} />
           <Route path='/agbada1' element={<Agbada1 />} />
           <Route path='/agbada2' element={<Agbada2 />} />
           <Route path='/agbada3' element={<Agbada3 />} />

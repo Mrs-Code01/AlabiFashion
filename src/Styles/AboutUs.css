@@ -1,0 +1,84 @@
+.aboutus-width {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .aboutus-top {
+    text-align: center;
+    margin: 50px 0 60px;
+  }
+  
+  .aboutus-top h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .aboutus-top a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+  }
+  
+  .aboutus-top span {
+    font-size: 1.6rem;
+    color: black;
+  }
+  
+  .aboutus-top .gt {
+    font-size: 1.6rem;
+    margin: 0 12px;
+  }
+
+  .aboutus-flex{
+      width: 100%;
+  }
+
+  .aboutus-flex img{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    object-position: top;
+    margin-bottom: 20px;
+}
+
+.aboutus-flex div{
+    width: 100%;
+}
+
+.aboutus-flex div p{
+    font-size: 2rem;
+}
+
+.aboutus-flex div h3{
+    font-size: 4.3rem;
+    line-height: 1;
+    margin: 15px 0;
+}
+
+
+@media screen and (max-width:800px){
+    .aboutus-width {
+        width: 90%;
+        margin: 0 auto;
+      }
+}
+
+@media screen and (max-width:500px){
+    .aboutus-width {
+        width: 95%;
+        margin: 0 auto;
+      }
+
+      .aboutus-flex div h3{
+        font-size: 4rem;
+        line-height: 1;
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width:370px){
+      .aboutus-flex div{
+        font-size: 3.9rem;
+    text-align: center;
+    }
+}

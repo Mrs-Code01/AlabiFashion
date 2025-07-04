@@ -230,9 +230,11 @@ const Home = () => {
           <p>CEO ALABI FASHION</p>
           <h3>Prince Olawusiyinka</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nam veniam nisi dolores vero suscipit omnis harum soluta minima, voluptatibus saepe laudantium placeat cumque sit asperiores vitae possimus reprehenderi...
+            My name is Alabi, a passionate fashion designer and the founder of AlabiFashion.
+  My journey in fashion began in 2008, but I paused that same year due to fear and uncertainty about life. In 2009, I found the courage to start again, and I’ve been pushing forward ever since.
+  I started my fashion career in Ibadan. In 2011, I moved to work with my older brother, who also happened to be a fashion designer. When he opened his own shop...
           </p>
-          <Link to=''>Read more about us</Link>
+          <Link to='/aboutus'>Read more about us</Link>
         </div>
       </section>
       <Footer />
